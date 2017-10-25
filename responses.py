@@ -21,3 +21,4 @@ def execute_comedy(subreddit, num):
         print("---------------------------------------\n")
 
     print("replied to ", num_posts_replied_to, " posts\n")
+    store_posts(posts_replied_to)
