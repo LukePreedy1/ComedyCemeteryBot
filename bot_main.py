@@ -11,6 +11,6 @@ reddit = praw.Reddit(user_agent='ComedyCemeteryBot',
                      username='ComedyCemeteryBot',
                      password='Yourface1234')
 
-subreddit = reddit.subreddit('moviebottestingarena')
+subreddit = reddit.subreddit('funny')
 
-execute_comedy(subreddit, 10)
+execute_comedy(subreddit, 100)
